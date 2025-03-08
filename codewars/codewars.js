@@ -217,3 +217,38 @@
 //     return vowelsCount;
 // }
 // console.log(getCount("fateh"));
+
+
+
+
+// // TASK 13
+// function friend(friends) {
+//     let onlyFriends = [];
+//     for (let i = 0; i < friends.length; i++) {
+//         if (friends[i].length === 4) {
+//             onlyFriends.push(friends[i]);
+//         }
+//     }
+//     return onlyFriends;
+// }
+// console.log(friend(["Ryan", "Kieran", "Jason", "Yous"]));
+
+
+
+
+// // TASK 14
+// function accum(s) {
+//     let result = "";
+//     for (let i = 0; i < s.length; i++) {
+//         result += s[i].toUpperCase();
+//         for (let j = 0; j < i; j++) {
+//             result += s[i].toLowerCase();
+//         }
+//         if (i !== s.length - 1) {
+//             result += "-";
+//         }
+
+//     }
+//     return result;
+// }
+// console.log(accum("cwAt"));
